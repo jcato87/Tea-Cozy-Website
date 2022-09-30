@@ -1,6 +1,6 @@
 # Tea-Cozy-Website
 
-Website: https://jcato87.github.io
+Website: https://jcato87.github.io/Tea-Cozy-Website/
 
 This project opens to a tea shop's website.
 
