@@ -1,0 +1,210 @@
+html,
+body {
+    width: 99.7%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+
+li {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-right: 2%;
+    
+}
+
+.logo {
+    float: left;
+    width: 15%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.pic1 {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+    url(./images/img-mission-background.jpg);
+    
+    margin-top: 2%;
+    
+    height: 90%;
+}
+
+.centered-words {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  text-align: center;
+  background-color: black;
+  
+}
+
+.title1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 60%;
+    
+}
+
+.three-pics {
+    display: flex;
+    justify-content: center;
+}
+
+.two-pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pic2 {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+    url(./images/img-locations-background.jpg);
+    
+    margin-top: 2%;
+    background-size: cover;
+    height: 90%;
+}
+
+.centered-words2 {
+    width: 33%;
+    position: absolute;
+  top: 235%;
+   left: 10%;
+    background-color: black;
+    
+  }
+
+.centered-words3 {
+    width: 33%;
+    position: absolute;
+  top: 235%;
+  left: 35%;
+   
+    background-color: black;
+    
+  }
+
+.centered-words4 {
+  width: 23%;
+  position: absolute;
+  top: 235%;
+  left: 65%;
+   
+    background-color: black;
+    
+  }
+
+  /* Media Query Start */
+
+@media only screen and (max-width: 768px) {
+    
+    .pic1 {
+        width: 98%;
+        height: 70%;
+    }
+    
+    .centered-words {
+        width: 97%;
+        position: absolute;
+        top: 55%;
+        transform: translateY(-50%);
+        text-align: center;
+        
+      }
+
+      .centered-words2 {
+        width: 33%;
+    position: absolute;
+  top: 200%;
+   left: 10%;
+      }
+    
+    .centered-words3 {
+        width: 33%;
+    position: absolute;
+  top: 210%;
+   left: 55%;
+    }
+    
+      .centered-words4 {
+        width: 33%;
+    position: absolute;
+  top: 230%;
+   left: 10%;
+      }
+
+      .three-pics img, h3 {
+        height: 100px;
+        width: 100px;
+        text-align: right;
+      }
+
+       .two-pics img, h3 {
+        height: 100px;
+        width: 100px;
+        text-align: right;
+      }
+
+      
+}  
+
+
+@media only screen and (min-width: 769px) 
+and (max-width: 900px){
+    
+    .pic1 {
+        width: 83%;
+        height: 70%;
+    }
+    
+     .centered-words {
+        width: 83%;
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        text-align: center;
+        
+      }
+
+      .pic2 {
+        width: 99%;
+        height: 50%;
+      }
+
+      .centered-words2 {
+        width: 33%;
+    position: absolute;
+  top: 190%;
+   left: 3%;
+      }
+          
+   .centered-words3 {
+        width: 33%;
+    position: absolute;
+  top: 190%;
+   left: 35%;
+    }
+
+    
+    .centered-words4 {
+        width: 33%;
+    position: absolute;
+  top: 190%;
+   left: 63%;
+      }
+    
+      
+}  
+  
