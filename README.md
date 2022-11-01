@@ -1,4 +1,4 @@
-# Tea-Cozy-Website
+# Tea-Shop-Website
 
 Website: https://jcato87.github.io/Tea-Cozy-Website/
 
