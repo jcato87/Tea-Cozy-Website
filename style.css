@@ -78,11 +78,16 @@ img {
 }
 
 .centered-words2 {
-    width: 33%;
+    width: auto;
+    background-color: black;
+    position: absolute;
+    top: 235%;
+    left: 30%;
+  /*width: 33%;
     position: absolute;
   top: 235%;
    left: 10%;
-    background-color: black;
+    background-color: black;*/
     
   }
 
