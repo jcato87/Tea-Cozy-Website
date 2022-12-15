@@ -230,7 +230,7 @@ and (max-width: 900px){
 }  
 
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) and (max-width: 1360px){
   .centered-words2 {
     width: auto;
     background-color: black;
